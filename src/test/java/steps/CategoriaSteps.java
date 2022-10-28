@@ -19,6 +19,7 @@ public class CategoriaSteps {
     }
     @Quando("realizo uma requisição do tipo GET da Categoria")
     public void realizoUmaRequisiçãoDoTipoGETDaCategoria() {
+
         RestUtils.get(header, "categorias");
     }
 

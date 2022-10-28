@@ -1,9 +1,10 @@
 package steps;
 
 import io.cucumber.java.pt.Entao;
-import io.cucumber.java.pt.Então;
 import org.junit.Assert;
 import utils.RestUtils;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GenericSteps {
 
